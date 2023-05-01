@@ -8,7 +8,7 @@ for (var i = 0; i < (document.querySelectorAll(".drum")).length; i++) {
 
     document.querySelectorAll(".drum")[i].addEventListener("mouseover", function () {
         var hoverr=this.innerHTML;
-        animationn(hoverr);
+        animation(hoverr);
         this.style.backgroundColor = "gray";
     });
     document.querySelectorAll(".drum")[i].addEventListener("mouseout", function () {
